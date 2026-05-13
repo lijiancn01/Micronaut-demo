@@ -563,8 +563,10 @@
                         if (jqXHR.responseText) {
                             try {
                                 const response = JSON.parse(jqXHR.responseText);
-                                if (response.message) {
+                                if (response.message && response.message !== 'Bad Request' && response.message !== 'Internal Server Error') {
                                     errorMsg = response.message;
+                                } else if (response._embedded && response._embedded.errors && response._embedded.errors.length > 0) {
+                                    errorMsg = response._embedded.errors[0].message || '保存失败';
                                 } else if (response.errors && response.errors.length > 0) {
                                     errorMsg = response.errors[0].message || '保存失败';
                                 }
