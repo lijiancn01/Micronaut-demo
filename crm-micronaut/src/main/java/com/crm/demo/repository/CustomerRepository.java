@@ -2,12 +2,13 @@ package com.crm.demo.repository;
 
 import com.crm.demo.entity.Customer;
 import com.crm.demo.entity.CustomerStatus;
+import io.micronaut.data.annotation.Repository;
 import io.micronaut.data.annotation.Query;
-import io.micronaut.data.model.query.builder.sql.Dialect;
-import io.micronaut.data.repository.JpaRepository;
+import io.micronaut.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
+@Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
 
     List<Customer> findByStatus(CustomerStatus status);
