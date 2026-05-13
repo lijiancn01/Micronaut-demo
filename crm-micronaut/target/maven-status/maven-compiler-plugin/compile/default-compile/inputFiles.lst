@@ -1,0 +1,8 @@
+/workspace/crm-micronaut/src/main/java/com/crm/demo/config/DataInitializer.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/entity/Customer.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/controller/HomeController.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/Application.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/entity/CustomerStatus.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/service/CustomerService.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/controller/CustomerController.java
+/workspace/crm-micronaut/src/main/java/com/crm/demo/repository/CustomerRepository.java
