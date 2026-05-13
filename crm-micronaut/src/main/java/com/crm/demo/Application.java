@@ -8,6 +8,8 @@ import jakarta.persistence.Entity;
 public class Application {
 
     public static void main(String[] args) {
+        // Disable JMX attach to avoid cgroup-related warnings
+        System.setProperty("jdk.attach.allowAttachSelf", "false");
         Micronaut.run(Application.class, args);
     }
 }
