@@ -2,23 +2,25 @@
   "resources" : [ {
     "pattern" : "\\Qstatic/index.html\\E"
   }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$GlobalExceptionHandler$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\Qapplication.yml\\E"
+  }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.controller.$CustomerController$Definition$Reference\\E"
   }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.controller.$CustomerController$Definition$Intercepted$Definition$Reference\\E"
   }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.service.$CustomerService$Definition$Intercepted$Definition$Reference\\E"
   }, {
-    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$Definition$Reference\\E"
-  }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$ApplicationEventListener$onStartup1$Intercepted$Definition$Reference\\E"
   }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.service.$CustomerService$Definition$Reference\\E"
   }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.repository.$CustomerRepository$Intercepted$Definition$Reference\\E"
-  }, {
-    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$Definition$Intercepted$Definition$Reference\\E"
-  }, {
-    "pattern" : "\\Qapplication.yml\\E"
   }, {
     "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.crm.demo.entity.$Customer$IntrospectionRef\\E"
   }, {

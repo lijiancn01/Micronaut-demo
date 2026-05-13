@@ -558,8 +558,25 @@
                         updateStats();
                         showToast(id ? '客户信息已更新' : '客户添加成功', 'success');
                     },
-                    error: function() {
-                        showToast('保存失败', 'danger');
+                    error: function(jqXHR) {
+                        let errorMsg = '保存失败';
+                        if (jqXHR.responseText) {
+                            try {
+                                const response = JSON.parse(jqXHR.responseText);
+                                if (response.message) {
+                                    errorMsg = response.message;
+                                } else if (response.errors && response.errors.length > 0) {
+                                    errorMsg = response.errors[0].message || '保存失败';
+                                }
+                            } catch (e) {
+                                errorMsg = jqXHR.responseText.substring(0, 100) || '保存失败';
+                            }
+                        } else if (jqXHR.status === 400) {
+                            errorMsg = '请求参数错误，请检查输入';
+                        } else if (jqXHR.status === 500) {
+                            errorMsg = '服务器内部错误';
+                        }
+                        showToast(errorMsg, 'danger');
                     }
                 });
             }

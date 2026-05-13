@@ -3,12 +3,14 @@ com/crm/demo/config/$DataInitializer$ApplicationEventListener$onStartup1$Interce
 com/crm/demo/config/$DataInitializer$ApplicationEventListener$onStartup1$Intercepted$Definition.class
 com/crm/demo/controller/$CustomerController$Definition$Intercepted$Definition$Reference.class
 com/crm/demo/entity/$Customer$IntrospectionRef.class
+META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$GlobalExceptionHandler$Definition$Reference
 com/crm/demo/controller/CustomerController$Stats.class
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$Definition$Intercepted$Definition$Reference
 com/crm/demo/repository/$CustomerRepository$Intercepted$Definition$Exec.class
 com/crm/demo/controller/$CustomerController$Definition$Exec.class
 com/crm/demo/service/$CustomerService$Definition$Reference.class
 com/crm/demo/controller/CustomerController.class
+com/crm/demo/config/$GlobalExceptionHandler$Definition.class
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.repository.$CustomerRepository$Intercepted$Definition$Reference
 com/crm/demo/controller/HomeController.class
 com/crm/demo/controller/$CustomerController$Definition$Reference.class
@@ -25,6 +27,7 @@ META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.cont
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.service.$CustomerService$Definition$Intercepted$Definition$Reference
 com/crm/demo/entity/CustomerStatus.class
 META-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.crm.demo.entity.$Customer$IntrospectionRef
+com/crm/demo/config/$GlobalExceptionHandler$Definition$Reference.class
 com/crm/demo/config/$DataInitializer$Definition$Reference.class
 com/crm/demo/Application.class
 com/crm/demo/config/$DataInitializer$Definition.class
@@ -39,6 +42,7 @@ com/crm/demo/config/DataInitializer.class
 com/crm/demo/service/CustomerService.class
 com/crm/demo/repository/CustomerRepository$Intercepted.class
 com/crm/demo/entity/Customer.class
+com/crm/demo/config/GlobalExceptionHandler.class
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.controller.$HomeController$Definition$Reference
 com/crm/demo/repository/$CustomerRepository$Intercepted$Definition.class
 com/crm/demo/config/$DataInitializer$Definition$Intercepted$Definition.class
@@ -46,5 +50,6 @@ com/crm/demo/controller/$CustomerController$Definition.class
 com/crm/demo/config/$DataInitializer$Definition$Intercepted.class
 com/crm/demo/controller/$HomeController$Definition$Reference.class
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.config.$DataInitializer$ApplicationEventListener$onStartup1$Intercepted$Definition$Reference
+com/crm/demo/config/$GlobalExceptionHandler$Definition$Exec.class
 META-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.crm.demo.service.$CustomerService$Definition$Reference
 com/crm/demo/controller/$CustomerController$Definition$Intercepted$Definition.class
