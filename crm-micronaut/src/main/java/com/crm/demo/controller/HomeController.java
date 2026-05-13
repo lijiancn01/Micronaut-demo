@@ -454,7 +454,7 @@ public class HomeController {
                         });
                         
                         function loadCustomers(keyword = '') {
-                            const url = keyword ? `/api/customers/search?keyword=${encodeURIComponent(keyword)}' : '/api/customers';
+                            const url = keyword ? `/api/customers/search?keyword=${encodeURIComponent(keyword)}` : '/api/customers';
                             
                             $.get(url, function(customers) {
                                 renderTable(customers);
@@ -559,7 +559,7 @@ public class HomeController {
                             }
                             
                             const method = id ? 'PUT' : 'POST';
-                            const url = id ? `/api/customers/${id}' : '/api/customers';
+                            const url = id ? `/api/customers/${id}` : '/api/customers';
                             
                             $.ajax({
                                 url: url,
@@ -580,7 +580,7 @@ public class HomeController {
                         
                         function toggleStatus(id) {
                             $.ajax({
-                                url: `/api/customers/${id}/toggle-status',
+                                url: `/api/customers/${id}/toggle-status`,
                                 type: 'PATCH',
                                 success: function() {
                                     loadCustomers();
